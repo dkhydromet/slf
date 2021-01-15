@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/jchoi/Documents/Work/nasa/trunk/doc/examples/random_numbers.cc
+ctime
+-
+inttypes.h
+-
+iomanip
+-
+iostream
+-
+vector
+-
+meteoio/meteoStats/RandomNumberGenerator.h
+-
+
+/home/jchoi/Documents/Work/nasa/trunk/meteoio/meteoStats/RandomNumberGenerator.h
+ctime
+-
+inttypes.h
+-
+string
+-
+vector
+-
+

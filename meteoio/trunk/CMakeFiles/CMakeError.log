@@ -1,0 +1,26 @@
+Performing C SOURCE FILE Test HAVE_STRUCT_STAT_ST_FLAGS failed with the following output:
+Change Dir: /home/jchoi/Documents/Work/nasa/trunk/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_fce34/fast && /usr/bin/make -f CMakeFiles/cmTC_fce34.dir/build.make CMakeFiles/cmTC_fce34.dir/build
+make[1]: Entering directory '/home/jchoi/Documents/Work/nasa/trunk/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fce34.dir/src.c.o
+/usr/bin/cc   -DHAVE_STRUCT_STAT_ST_FLAGS   -o CMakeFiles/cmTC_fce34.dir/src.c.o   -c /home/jchoi/Documents/Work/nasa/trunk/CMakeFiles/CMakeTmp/src.c
+/home/jchoi/Documents/Work/nasa/trunk/CMakeFiles/CMakeTmp/src.c: In function ‘main’:
+/home/jchoi/Documents/Work/nasa/trunk/CMakeFiles/CMakeTmp/src.c:6:34: error: ‘struct stat’ has no member named ‘st_flags’
+    6 |   (void)sizeof(((struct stat *)0)->st_flags);
+      |                                  ^~
+make[1]: *** [CMakeFiles/cmTC_fce34.dir/build.make:66: CMakeFiles/cmTC_fce34.dir/src.c.o] Error 1
+make[1]: Leaving directory '/home/jchoi/Documents/Work/nasa/trunk/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_fce34/fast] Error 2
+
+
+Source file was:
+
+#include <sys/stat.h>
+
+int main()
+{
+  (void)sizeof(((struct stat *)0)->st_flags);
+  return 0;
+}
+
