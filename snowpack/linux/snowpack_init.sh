@@ -1,7 +1,7 @@
 echo "ASSUMING BASH ENV"
 
 # get pwd of snowpack installation
-cd trunk
+cd ../trunk
 snowpack_path=$(pwd)
 
 ~/.bashrc >> export PATH=""${snowpack_path}"/bin:$PATH"
