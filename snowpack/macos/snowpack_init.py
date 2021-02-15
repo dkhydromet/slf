@@ -2,6 +2,11 @@
 
 import os
 from pathlib import Path
+import platform
+
+if platform.system() != "Darwin":
+	print("This script is intended for macOS")
+	quit()
 
 os.chdir("../trunk")
 installation_path = os.getcwd()
