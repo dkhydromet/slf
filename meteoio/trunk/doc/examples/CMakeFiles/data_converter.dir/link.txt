@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   -rdynamic CMakeFiles/data_converter.dir/data_converter.cc.o  -o data_converter  -Wl,-rpath,/home/jchoi/Documents/Work/nasa/trunk/lib /home/jchoi/Documents/Work/nasa/trunk/lib/libmeteoio.so 

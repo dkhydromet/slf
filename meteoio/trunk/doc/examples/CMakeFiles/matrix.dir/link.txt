@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   -rdynamic CMakeFiles/matrix.dir/matrix.cc.o  -o matrix  -Wl,-rpath,/home/jchoi/Documents/Work/nasa/trunk/lib /home/jchoi/Documents/Work/nasa/trunk/lib/libmeteoio.so 

@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   -rdynamic CMakeFiles/grid2d_reading.dir/grid2d_reading.cc.o  -o grid2d_reading  -Wl,-rpath,/home/jchoi/Documents/Work/nasa/trunk/lib /home/jchoi/Documents/Work/nasa/trunk/lib/libmeteoio.so 

@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   -rdynamic CMakeFiles/time.dir/time.cc.o  -o time  -Wl,-rpath,/home/jchoi/Documents/Work/nasa/trunk/lib /home/jchoi/Documents/Work/nasa/trunk/lib/libmeteoio.so 
